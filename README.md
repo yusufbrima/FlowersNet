@@ -41,7 +41,8 @@ python predict.py
 ```
 
 ## Sample Output
-    ![Sample Output](Figures/prediction_plot_2.png)
+
+![Sample Output](Figures/prediction_plot_2.png)
 
 ## License
 This project is licensed under the terms of the [MIT license]().
