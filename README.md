@@ -62,3 +62,16 @@ This table shows the performance metrics of the model on the training, validatio
 
 ## License
 This project is licensed under the terms of the [MIT license]().
+
+# Citation
+
+If you use this code or find it helpful in your research, please consider citing this repository:
+
+@misc{yusufbrima,
+author = {Yusuf Brima},
+title = {FlowersNet},
+year = {2023},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/yusufbrima/FlowersNet}},
+}
