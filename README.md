@@ -10,7 +10,7 @@ This project aims to train and deploy a deep learning model for a specific task.
 - Clone this repository:
 
 ```bash
-git clone https://github.com/your_username/your_repository.git
+git clone git@github.com:yusufbrima/FlowersNet.git
 ```
 
 - Install the required packages:
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-- Download the dataset from [here](https://www.kaggle.com/c/dogs-vs-cats/data) and extract it in the `data` directory.
+- Download the dataset from [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html) and extract it in the `data` directory.
 
 ### Data Samples 
 ![Data Samples](Figures/plot.png)
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 - Train the model using the following command:
 
 ```bash
-python train.py
+python main.py
 ```
 
 ## Model Inference
@@ -40,9 +40,20 @@ python train.py
 python predict.py
 ```
 
+# Model Performance
+
+This table shows the performance metrics of the model on the training, validation, and test datasets.
+
+| Dataset   | Accuracy | Loss    |
+|-----------|----------|---------|
+| Training  | 0.95     | 0.84    |
+| Validation| 0.96     | 0.84    |
+| Test      | 0.88     | 0.91    |
+
+
 ## Sample Output
 
-![Sample Output](Figures/prediction_plot_2.png)
+![Sample Output](Figures/prediction_plot.png)
 
 ## License
 This project is licensed under the terms of the [MIT license]().
