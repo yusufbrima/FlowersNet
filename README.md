@@ -1,10 +1,10 @@
 # Model Training and Inference
 
-This repository contains code for training and inference using a deep learning model.
+This repository contains code for training and inference using a deep convolutional neural network model.
 
 
 ## Introduction
-This project aims to train and deploy a deep learning model for a specific task. The model is trained on a labeled dataset and later used to predict labels for new unseen data.
+This project aims to train and evaluate a deep learning model for a flower species classification (17 classes) task. The model is trained on a labeled dataset and later used to predict labels for new unseen flower images.
 
 ## Installation
 - Clone this repository:
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-- Download the dataset from [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html) and extract it in the `data` directory.
+- Download the dataset from [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html) and extract it a directory which should be set in the `base_dir` variables in `main.py`,`predict.py` and `Play.ipynb`  files.
 
 ### Data Samples 
 ![Data Samples](Figures/plot.png)
@@ -39,6 +39,11 @@ python main.py
 ```bash
 python predict.py
 ```
+- Alternatively, you can use the `Play.ipynb` notebook to run the model inference and visualize the results.
+
+- The model weights are saved in the `Models` directory.
+
+- Train, validation, and test data are saved in the `Results` directory.
 
 # Model Performance
 
