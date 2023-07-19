@@ -40,7 +40,7 @@ python train.py
 python predict.py
 ```
 
- ## Sample Output
+## Sample Output
     ![Sample Output](Figures/prediction_plot_2.png)
 
 ## License
