@@ -51,14 +51,18 @@ This table shows the performance metrics of the model on the training, validatio
 
 | Dataset   | Accuracy | Loss    |
 |-----------|----------|---------|
-| Training  | 0.95     | 0.84    |
-| Validation| 0.96     | 0.84    |
-| Test      | 0.88     | 0.91    |
+| Training  | 0.98     | 0.46    |
+| Validation| 0.98     | 0.54    |
+| Test      | 0.89     | 0.62    |
 
 
-## Sample Output
+## Sample Prediction Outputs
 
 ![Sample Output](Figures/prediction_plot.png)
+
+![Sample Output](Figures/prediction_plot_2.png)
+
+![Sample Output](Figures/prediction_plot_n.png)
 
 ## License
 This project is licensed under the terms of the [MIT license]().

@@ -21,14 +21,14 @@ random.seed(random_state)
 torch.manual_seed(random_state)
 
 batch_size = 32
-num_epochs = 3
+num_epochs = 5
 num_workers = 0
 
 # set the device to be used for training
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-base_dir = "/Users/yusuf/Desktop/dataset/"
+base_dir = "/net/projects/scratch/summer/valid_until_31_January_2024/ybrima/data/learning/Flowers/"
 file_path = f"{base_dir}jpg/files.txt"
 save_path = f"{base_dir}dataset.csv"
 

@@ -13,7 +13,7 @@ from dataset import CustomDataset
 from model import PretrainedResNet50
 from utils import preprocess
 
-base_dir = "/Users/yusuf/Desktop/dataset/"
+base_dir = "/net/projects/scratch/summer/valid_until_31_January_2024/ybrima/data/learning/Flowers/"
 file_path = f"{base_dir}jpg/files.txt"
 save_path = f"{base_dir}dataset.csv"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -92,7 +92,7 @@ if __name__ == "__main__":
         plt.imshow(image.squeeze(0).permute(1, 2, 0))
         ax.set_title(f"True: {true_label}  Predicted: {pred_label}")
         ax.axis("off")
-        # plt.savefig('Figures/prediction_plot.png')
+        plt.savefig('Figures/prediction_plot_n.png')
     plt.show()
 
 
