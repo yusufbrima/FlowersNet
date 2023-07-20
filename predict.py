@@ -92,7 +92,7 @@ if __name__ == "__main__":
         plt.imshow(image.squeeze(0).permute(1, 2, 0))
         ax.set_title(f"True: {true_label}  Predicted: {pred_label}")
         ax.axis("off")
-        plt.savefig('Figures/prediction_plot_n.png')
+        plt.savefig('Figures/prediction_plot_n2.png')
     plt.show()
 
 

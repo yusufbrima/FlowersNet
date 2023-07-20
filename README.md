@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-- Download the dataset from [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html) and extract it a directory which should be set in the `base_dir` variables in `main.py`,`predict.py` and `Play.ipynb`  files.
+- Download the dataset from [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html) and extract it a directory which should be set in the `base_dir` variables in `train.py`,`predict.py` and `Play.ipynb`  files.
 
 ### Data Samples 
 ![Data Samples](Figures/plot.png)
@@ -30,8 +30,13 @@ pip install -r requirements.txt
 - Train the model using the following command:
 
 ```bash
-python main.py
+python train.py
 ```
+
+### Train and validation plots 
+![Data Samples](Figures/loss_plot.png)
+
+![Data Samples](Figures/accuracy_plot.png)
 
 ## Model Inference
 - Use the model to predict labels for new data using the following command:
@@ -51,9 +56,9 @@ This table shows the performance metrics of the model on the training, validatio
 
 | Dataset   | Accuracy | Loss    |
 |-----------|----------|---------|
-| Training  | 0.98     | 0.46    |
-| Validation| 0.98     | 0.54    |
-| Test      | 0.89     | 0.62    |
+| Training  | 1.00     | 0.07    |
+| Validation| 0.99     | 0.07    |
+| Test      | 0.94     | 0.32    |
 
 
 ## Sample Prediction Outputs
